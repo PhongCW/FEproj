@@ -1,0 +1,124 @@
+.Header{
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    padding: 50px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: skyblue;
+    color: rgb(138, 37, 37);
+    font-weight: bolder;
+    font-size: 40px;
+}
+.screen{
+    .title{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
+.form{
+    position: relative;
+}
+
+.form{
+    .col-md-5{
+        &.mx-auto{
+            .error1{
+                &.form-label{
+                    position: absolute;
+                    left: 230px;
+                    top: 10px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.form{
+    .col-md-5{
+        &.mx-auto{
+            .error2{
+                &.form-label{
+                    position: absolute;
+                    left: 230px;
+                    top: 85px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.screen{
+    .title{
+        text-align: center;
+        padding-right: 800px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.form{
+    .form-text{
+        color: red;
+    }
+}
+
+.screen{
+    position: relative;
+}
+
+.screen{
+    .form{
+        .col-md-5{
+            &.mx-auto{
+                .click1{
+                    &.btn{
+                        &.btn-primary{
+                            position: absolute;
+                            left: 340px;
+                            margin-top: 40px;
+                            padding: 10px 70px 10px 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.allelement{
+    border-style: solid;
+    border-color: skyblue;
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.allelement{
+    box-shadow: 10px 10px 10px 0px rgba($color: #000000, $alpha: 0.6);
+}
+
+.text1{
+    &.form-text{
+        font-size: 12px;
+    }
+}
+
+.text2{
+    &.form-text{
+        font-size: 12px;
+    }
+}
+
+.footer1{
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgba($color: skyblue, $alpha: 1);
+}

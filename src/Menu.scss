@@ -1,0 +1,101 @@
+.MenuAndLogout{
+    padding: 50px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: skyblue;
+    color: rgb(138, 37, 37);
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: rgb(222, 222, 222);
+    position: relative;
+}
+
+.allMenu{
+    border-style: solid;
+    border-color: skyblue;
+    margin-top: 50px;
+}
+.MenuTitle{
+    font-weight: bolder;
+    font-size: 26px;
+    padding-left: 100px;
+}
+
+.allMenu{
+    .MenuButton1{
+        .btn{
+            &.btn-primary{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 100px;
+                padding-left: 100px;
+            }
+        }
+    }
+}
+.MenuButton1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.MenuButton2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.allMenu{
+    .MenuButton2{
+        .btn{
+            &.btn-primary{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 100px;
+                padding-left: 100px; 
+            }
+        }
+    }
+}
+.allMenu{
+    .MenuTitle{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+.allMenu{
+    margin-right: 130px;
+    margin-left: 130px;
+    box-shadow: 10px 10px 10px 0px rgba($color: black, $alpha: 0.6);
+}
+
+.MenuFooter{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px rgba($color: skyblue, $alpha: 1);
+}
+
+.Logout-Menu{
+    color: black;
+    font-size: 15px;
+    top: 20px;
+    position: absolute;
+    left: 1200px;
+}
+
+.MenuHeader{
+    text-align: center;
+}
+
+.MenuAndLogout{
+    .Logout-Menu{
+        .icon-logout{
+            color: red;
+            font-size: 20px;
+        }
+    }
+}
+
