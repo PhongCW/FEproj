@@ -1,0 +1,53 @@
+
+.MenuStaffList{
+    color: skyblue;
+}
+
+.FormSearching{
+    display: inline;
+}
+
+.TitleStafflist{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 300px;
+}
+
+.TitleAndForm{
+    position: relative;
+}
+
+.TitleAndForm{
+    .TitleStafflist{
+        position: absolute;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+}
+
+.create{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tableStaff{
+    text-align: center;
+}
+
+.tableStaff{
+    &.table{
+        &.table-dark{
+            &.table-sm{
+                &.table-striped{
+                    &.table-bordered{
+                        &.table-hover{
+                            margin-top: 30px;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

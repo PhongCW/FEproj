@@ -29,15 +29,20 @@ const Login = () => {
     
     const ClickToGet = async(event) => {
         event.preventDefault();
-        axios.get('')
+        await axios.post('')
     }
 
     const click = async(event) => {
         event.preventDefault();
-        await axios.post('http://127.0.0.1:8000/getAdmin', {admin})
+        await axios.post('http://127.0.0.1:8000/getAdmin',  {admin})
         .then((response) => {
             if(response['data'] == 'success'){
-                Nevigate('/Menu')
+                console.log(response)
+                Nevigate('/HeaderFromMenu')
+            }
+            else
+            {
+                console.log("error");
             }
         })
         .catch((err) => {
