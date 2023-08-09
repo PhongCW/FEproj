@@ -17,8 +17,11 @@ const Login = () => {
     //     console.log(res.data)
     // }
     const [admin, setAdmin] = useState({
-        'admin':'',
-        'password':''
+        'surname':'',
+        'name':'',
+        'FuriganaSurname':'',
+        'FuriganaNam':'',
+        'Office':''
     })
     const changeAdmin = (event) => {
         setAdmin({...admin, 'admin':event.target.value})
@@ -34,7 +37,7 @@ const Login = () => {
 
     const click = async(event) => {
         event.preventDefault();
-        await axios.post('http://127.0.0.1:8000/getAdmin',  {admin})
+        await axios.post('http://127.0.0.1:8000//CreateStaff',  {admin})
         .then((response) => {
             if(response['data'] == 'success'){
                 console.log(response)

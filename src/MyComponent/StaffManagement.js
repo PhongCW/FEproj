@@ -4,6 +4,7 @@ import { Table, Button, Tab } from "react-bootstrap";
 import axios from "axios";
 import Staff_List from "./Staff_List";
 import "../StaffManagement.scss"
+import $ from "jquery"
 
 const StaffManagement = () => {
     const [staff, setStaff] = useState([{}])
