@@ -8,6 +8,7 @@ import Menu from './MyComponent/Menu';
 import HeaderFromMenu from './MyComponent/HeaderFromMenu';
 import Staff_List from './MyComponent/Staff_List';
 import SignUpStaff_List from './MyComponent/SignUpStaff_List';
+import StaffManagement from './MyComponent/StaffManagement';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
           <Route index element={<Menu></Menu>}></Route>
           <Route path='/HeaderFromMenu/stafflist' element={<Staff_List></Staff_List>}></Route>
           <Route path='/HeaderFromMenu/SignUp' element={<SignUpStaff_List></SignUpStaff_List>}></Route>
+          <Route path='/HeaderFromMenu/StaffManagement' element={<StaffManagement></StaffManagement>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -7,16 +7,18 @@ import axios from "axios";
 const SignUpStaff_List = () => {
 
     const [staff, setStaff] = useState({
-        "FamilyName":"",
-        "FullName":"",
-        "Office":"",
+        data:[{
+            "FamilyName":"",
+            "FullName":"",
+            "Office":"",
+        }]
     })
 
-    const create = async(event) => {
+    const create = async (event) => {
         event.preventDefault();
         await axios.post('http://127.0.0.1:8000/SignUp',  {...staff})
         .then((response) => {
-            console.log(response)
+            console.log(response);
         })
         .catch((err) => {
             console.log(err)

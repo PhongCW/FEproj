@@ -1,10 +1,10 @@
 
-import { Button, Nav} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import '../Menu.scss'
+import OrderManagement from "./StaffManagement";
 
 const Menu = () => {
-
     return (
         <div>
             <div className="allMenu">
@@ -15,7 +15,7 @@ const Menu = () => {
                     <NavLink to="/HeaderFromMenu/stafflist"><Button>スタッフ管理</Button></NavLink>
                 </div>
                 <div className="MenuButton2">
-                    <NavLink><Button>オーダー管理</Button></NavLink>
+                    <NavLink to="/HeaderFromMenu/StaffManagement"><Button>オーダー管理</Button></NavLink>
                 </div>
             </div>
             <footer className='MenuFooter'>クラフト情報システム株式会社</footer>
